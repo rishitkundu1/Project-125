@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+*{
+      padding: 0;
+      margin: 0;
+      font-family: 'Luckiest Guy', cursive;
+      color: white;
+}
+body{
+      min-height: 100vh;
+      background-image: url("https://thumbs.dreamstime.com/b/hand-drawn-background-set-cute-speech-bubble-eith-doodle-style-hand-drawn-background-set-cute-speech-bubble-eith-text-150224637.jpg");
+      background-size: 40%;
+}
+.copy_right_footer{
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      color: black;
+      background-color: black;
+      border-top: 3px solid white;
+      height: 40px;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: blink 10s ease infinite;
+}
+@keyframes blink{
+      0%{
+            background-color: black;
+            color: white;
+      }
+      10%{
+            background-color: white;
+            color: black;
+      }
+      20%{
+            background-color: black;
+            color: white;
+      }
+      30%{
+            background-color: white;
+            color: black;
+      }
+      40%{
+            background-color: black;
+            color: white;
+      }
+      50%{
+            background-color: white;
+            color: black;
+      }
+      60%{
+            background-color: black;
+            color: white;
+      }
+      70%{
+            background-color: white;
+            color: black;
+      }
+      80%{
+            background-color: black;
+            color: white;
+      }
+      90%{
+            background-color: white;
+            color: black;
+      }
+      100%{
+            background-color: black;
+            color: white;
+      }
+}
+.a{
+      font-size: 30px;
+}
+.note{
+      font-size: 20px;
+}
+canvas{
+      border: 5px solid white;
+      border-radius: 20px;
+}
+.main_div{
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.9);
+      min-height: 100vh;
+      margin-top: 0;
+}
